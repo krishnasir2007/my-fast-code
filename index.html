@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>HET - Pong Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>HET Pong Game</h1>
+    <div id="gameContainer">
+        <canvas id="gameCanvas" width="800" height="500"></canvas>
+    </div>
+
+    <div id="controls">
+        <button id="startBtn">Start</button>
+        <button id="restartBtn">Restart</button>
+        <button id="pauseBtn">Pause</button>
+        <div id="timer">Time: 00:00</div>
+    </div>
+
+    <!-- Game Over message -->
+    <div id="gameOverMessage" style="display:none; font-size: 24px; margin-top: 20px; color: red;">
+        Game Over!
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

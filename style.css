@@ -1,0 +1,37 @@
+body {
+    text-align: center;
+    background: #111;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+#gameContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+canvas {
+    background: #000;
+    border: 3px solid #f26c6c;
+}
+
+#controls {
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #444;
+    color: rgb(28, 228, 94);
+    border: none;
+    border-radius: 5px;
+}
+
+#timer {
+    margin-top: 15px;
+    font-size: 18px;
+}
